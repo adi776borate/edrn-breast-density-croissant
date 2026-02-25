@@ -56,8 +56,3 @@ credentials.json
 
 # Data / large files
 *.dcm
-
-# Mini dataset
-manifest_mini.csv
-outputs/croissant_mini.json
-generator_mini.py

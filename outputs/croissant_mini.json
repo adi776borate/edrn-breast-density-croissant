@@ -1,0 +1,184 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "equivalentProperty": "cr:equivalentProperty",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "samplingRate": "cr:samplingRate",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "EDRN_Breast_Density_Collection_2_Mini",
+  "description": "Mini subset (5 pairs) of the Automated Quantitative Measures of Breast Density Data - processed mammograms and segmentation masks streamed from LabCAS via authenticated URLs. Used for rapid prototyping and pipeline testing.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "citeAs": "EDRN LabCAS Breast Density Collection",
+  "datePublished": "2025-01-22",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://edrn-labcas.jpl.nasa.gov/collections/Automated_Quantitative_Measures_of_Breast_Density_Data",
+  "version": "1.0.0-mini",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "manifest_mini.csv",
+      "name": "manifest_mini.csv",
+      "description": "Mini CSV manifest: top-5 matched PROC/MASK mammogram pairs.",
+      "contentUrl": "../manifest_mini.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "7786bbd7e7c22adac211828f51742436fbb652f03f6e7260feedcce95593d3f1"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "mammograms",
+      "name": "mammograms",
+      "description": "Each record is a matched PROC/MASK pair for one patient-view combination.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "mammograms/group",
+          "name": "mammograms/group",
+          "description": "Case/control status: 'case' or 'control'.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "manifest_mini.csv"
+            },
+            "extract": {
+              "column": "group"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mammograms/patient_id",
+          "name": "mammograms/patient_id",
+          "description": "Patient identifier (e.g. C0250, C0251).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "manifest_mini.csv"
+            },
+            "extract": {
+              "column": "patient_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mammograms/view",
+          "name": "mammograms/view",
+          "description": "Mammographic view: LCC, LMLO, RCC, or RMLO.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "manifest_mini.csv"
+            },
+            "extract": {
+              "column": "view"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mammograms/proc_url",
+          "name": "mammograms/proc_url",
+          "description": "Download URL for the processed mammogram DICOM.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "manifest_mini.csv"
+            },
+            "extract": {
+              "column": "proc_url"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mammograms/mask_url",
+          "name": "mammograms/mask_url",
+          "description": "Download URL for the segmentation mask DICOM.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "manifest_mini.csv"
+            },
+            "extract": {
+              "column": "mask_url"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mammograms/proc_name",
+          "name": "mammograms/proc_name",
+          "description": "Filename of the processed mammogram DICOM.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "manifest_mini.csv"
+            },
+            "extract": {
+              "column": "proc_name"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mammograms/mask_name",
+          "name": "mammograms/mask_name",
+          "description": "Filename of the segmentation mask DICOM.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "manifest_mini.csv"
+            },
+            "extract": {
+              "column": "mask_name"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
