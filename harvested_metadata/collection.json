@@ -1,0 +1,138 @@
+{
+  "FileType": [
+    "dicom",
+    "pdf",
+    "excel",
+    "Unknown"
+  ],
+  "PublishDate": [
+    "2025-01-22 11:34:38.495731"
+  ],
+  "DatasetVersion": [
+    "1"
+  ],
+  "id": "Automated_Quantitative_Measures_of_Breast_Density_Data",
+  "labcasId": [
+    "Automated_Quantitative_Measures_of_Breast_Density_Data"
+  ],
+  "name": [
+    "Automated_Quantitative_Measures_of_Breast_Density_Data"
+  ],
+  "labcasName": [
+    "Automated_Quantitative_Measures_of_Breast_Density_Data"
+  ],
+  "CollectionName": "Automated Quantitative Measures of Breast Density Data - Collection 2",
+  "CollectionDescription": "319 case-control pairs; 2D mammographic images in for presentation and for processing image data representations; demographical-clinical; and pathological data, from women 18 years and older. GrantNumber: R01CA166269 breast density and breast cancer study (2013-2017).",
+  "Instrument": [
+    "Hologic Selenia FFDM 2D units and Dimensions digital breast tomosynthesis (DBT) units operating in the 2D mode"
+  ],
+  "DataCustodian": [
+    "Erin Fowler"
+  ],
+  "DataCustodianEmail": [
+    "Erin.Fowler@moffitt.org"
+  ],
+  "Discipline": [
+    "Radiology"
+  ],
+  "DataCategory": [
+    "Mammography"
+  ],
+  "Institution": [
+    "H. Lee Moffitt Cancer Center and Research Institute Inc."
+  ],
+  "InstitutionId": [
+    "816"
+  ],
+  "LeadPI": [
+    "John Heine"
+  ],
+  "LeadPIId": [
+    "3734"
+  ],
+  "Organ": [
+    "Breast"
+  ],
+  "OrganId": [
+    "1"
+  ],
+  "ResultsAndConclusionSummary": [
+    "Select findings from studies using these collections are briefly described, as the investigations spanned roughly 19 years. Concise findings and detailed descriptions of the algorithms and methods can be found from the respective citations. \\\nFrom Collection 1, a calibration system was established to adjust for processing 2D mammograms acquired with FFDM to a common normalized effective x-ray attenuation coefficient scale [1]. This system included a serial quality assurance (QA) monitoring system based on the cumulative sum (CUSUM) technique. This QA approach was used to check the serial accuracy of baseline calibration data so it could be updated if calibration accuracy moved beyond a given tolerance [2]. This technique was able to detect signs of impending x-ray tube failure long before the actual failure. Calibration also required an accurate estimate of the compressed breast thickness during the acquisition. Compression paddle force on the breast caused deviations in the compressed breast thickness spatial distribution; a method was developed to compensate for the compression paddle contortion [3]. Using calibrated data, the mean, variation, BI-RADS ordinal breast composition measures, and a PD-type measure produced significant odds ratios (ORs) [4-6]. The variation from both for presentation and for processing mammograms produced significant ORs, and that BI-RADS descriptors could be developed without calibration. \\\nFrom Collection 2, the same calibration system was extended from the Collection 1 studies [7], and the QA monitoring approach was advanced with 2D mammograms acquired with a different FFDM technology. Here we showed how to monitor a given acquisition\u2019s baseline calibration data with a 50/50 percent adipose/glandular phantom and correct a given curve when it drifted out of a present calibration tolerance with the same 50/50 phantom measurement [8]; this system also required a compressed breast thickness correction technique to compensate for the paddle deflection due to the compression force [9]. The calibrated variation measure produced significant ORs [10]. An automated PD measure developed earlier [11, 12], modified to operate on for presentation and for processing images (i.e., non-calibrated data), also produced significant ORs [13] when applied to this collection, unrelated to the calibration studies. \\\nFrom collections 1 and 2, Fourier ring measurements (texture analyzed in the Fourier domain) produced significant findings across the power spectrum with calibrated, for processing, and for presentation images [14]; illustrations were provided showing how these measures translate to image texture and spatial scales. In particular, a low frequency measurement produced significant ORs that was in agreement with earlier work with digitized film mammograms [15] and subsequently validated with two large disparate populations with FFDM images [16]. Summarized local spatial correlation measures produced significant ORs also related to specific spatial scales [17]. \\\nFrom Collection 3, several PD type measures produced significant ORs [18]: PD as a volumetric quantity, PD averaged over the DBT slices (area quantity), and PD determined from 2D synthetic images. ORs were about the same across these measures. Theoretical derivations predicted the volumetric and average slice measures are the same, agreeing with the respective OR findings. PD was modeled as a function compressed breast thickness (CBT). Maximum PD location was approximately 0.41\u00d7CBT and similar across case-controls. PD determined from the slice where it was a maximum value produced significant ORs very similar to the other PD methods. Both the average pixel values from the DBT volume and from the 2D synthetic images produced significant ORs. Unlike the analysis of 2D FFDM images, variation measured in multiple ways did not produce significant findings."
+  ],
+  "OwnerPrincipal": [
+    "cn=All Users,dc=edrn,dc=jpl,dc=nasa,dc=gov"
+  ],
+  "CollaborativeGroup": [
+    "Breast and Gynecologic"
+  ],
+  "Consortium": [
+    "EDRN"
+  ],
+  "ProtocolName": [
+    "Automated Quantitative Measures of Breast Density"
+  ],
+  "ProtocolId": [
+    "448"
+  ],
+  "PubMedID": [
+    "18373863",
+    "20095250",
+    "21080916",
+    "21371912",
+    "21474058",
+    "21971260",
+    "23289950",
+    "24320473",
+    "24207013",
+    "25018067",
+    "25652480",
+    "30523909",
+    "30545682",
+    "30525207",
+    "33304615",
+    "37907569"
+  ],
+  "Species": [
+    "Homo sapiens"
+  ],
+  "DeliveryStatus": [
+    "Complete"
+  ],
+  "DataStructureDescription": [
+    "R01CA166269 breast density and breast cancer study  (2013-2017). Hologic Selenia 2D FFDM and Hologic Dimensions 2D/3D digital breast tomosynthesis (DBT) units operating in 2D mode. 319 case-control pairs of women 18 and over. 2D mammograms in for presentation and for processing representations. Demographical, clinical and pathological data approx 50 CDE. This dataset includes study images with a matched design, featuring case and control images for analysis. Case images represent the unaffected breast from the case group, while control images correspond to the ipsilateral breast of matched controls for the case's unaffected breast. The images include the craniocaudal (CC) view and are available in various types, including raw data for processing, processed data for presentation, C-View images, and DBT volumetric images. Key attributes are captured in the image file names, such as the case or control status (indicated as \"C\" for case and \"N\" for control) and match pair information, where the combination of case/control status and pair number creates a unique Study ID. Additionally, the file names provide two-field image information, detailing the mammography technology used, data format, image type, image view, laterality, breast orientation, and flags for extra views or special images. For example, in Case 0683, file names include: \"C0683_MG_DAT_LCC\" for raw data, \"C0683_MG_PRO_LCC\" for processed data, \"C0683_BT_SYN_LCC\" for C-View images, and \"C0683_BT_VOL_LCC\" for DBT volumetric images. Similarly, for Control 0683, file names include: \"N0683_MG_DAT_LCC\" for raw data, \"N0683_MG_PRO_LCC\" for processed data, \"N0683_BT_SYN_LCC\" for C-View images, and \"N0683_BT_VOL_LCC\" for DBT volumetric images. This structure ensures comprehensive metadata for accurate and detailed analysis. See pdf slides under the collection level files for more details."
+  ],
+  "DataCaptureStartDate": [
+    "2013"
+  ],
+  "DataCaptureEndDate": [
+    "2017"
+  ],
+  "FAIRAlignmentStatus": [
+    "Data Ready"
+  ],
+  "DataDisclaimer": [
+    "Data and information released from the National Cancer Institute (NCI) are provided on an \"AS IS\" basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. Availability of this data and information does not constitute scientific publication. Data and/or information may contain errors or be incomplete. NCI and its employees make no representation or warranty, express or implied, including without limitation any warranties of merchantability or fitness for a particular purpose or warranties as to the identity or ownership of data or information, the quality, accuracy or completeness of data or information, or that the use of such data or information will not infringe any patent, intellectual property or proprietary rights of any party. NCI shall not be liable for any claim for any loss, harm, illness or other damage or injury arising from access to or use of data or information, including without limitation any direct, indirect, incidental, exemplary, special or consequential damages, even if advised of the possibility of such damages. In accordance with scientific standards, appropriate acknowledgment of NCI should be made in any publications or other disclosures concerning data or information made available by NCI."
+  ],
+  "CollectionId": [
+    "Automated_Quantitative_Measures_of_Breast_Density_Data"
+  ],
+  "DatePublished": [
+    "22_01_2025__11_34_37"
+  ],
+  "PublishId": [
+    "22_01_2025__11_34_37"
+  ],
+  "labcas_node_type": [
+    "collections"
+  ],
+  "DatasetId": [
+    "Automated_Quantitative_Measures_of_Breast_Density_Data"
+  ],
+  "DatasetName": [
+    "Automated_Quantitative_Measures_of_Breast_Density_Data"
+  ],
+  "_version_": 1821987330599157760,
+  "MethodDetails": [
+    "Approach: all collections were developed to make breast density measurements with a matched (1:1) case-control design. Mammograms in the craniocaudal view were used in all studies. Breast density is a generalized term used in our context to imply an arbitrary measurement from a mammogram. For the most part, citations were reserved for the results section unless prior work was required for replicating the algorithms or to put investigations in context. Image definitions and descriptions are provided in the Data collection protocol Section. Collection 1 used two-dimensional (2D) mammograms acquired with full field digital mammography (FFDM). This collection\u2019s main study purpose was to standardize (for processing) mammograms using a breast tissue equivalent calibration phantom imaging approach to account for acquisition technique differences (i.e., target-filter combination, mAs, and compressed breast thickness). This approach was founded on making effective x-ray coefficient measurements from breast tissue equivalent phantoms [19] and developing a serial quality control method using the cumulative sum approach [20]. Images were mapped to a standardized scale (0 \u2013 100) representing total adipose to total glandular tissue respectively, prior to making image measurements (i.e., mean, and standard deviation). The mapping required developing baseline calibration curves at time-zero (about 160 phantom acquisitions). Additionally, differential evolution optimization [21] was used to develop a four-state ordinal measurement system that paralleled the BI-RADS [22] breast composition descriptors using both calibrated and non-calibrated images. The implementation of this DE approach is also described in detail in this work [23]. For risk modeling in all related studies, conditional logistic regression was used to estimate odds ratios (ORs) for given image measurement in a standard deviation increment with 95%% confidence intervals (CIs). ORs were the primary risk metric for the matched design with our intent to isolate a given image measurement. For most modeling outputs, ROC curve areas were provided as well with CIs. Both body mass index and ethnicity were controlled for in the modeling with a given image measurement. In all studies discussed here, breast density measurements were made from the non-affected breast for a case and same-side breast for the matched control. Calibrated measures were compared against breast density measured with the user-assisted Cumulus percentage of breast density (PD) method [24-26]. For a given image, this is binary labeling technique based on thresholding (dense / non-dense area), where the dense area normalized by the total breast area multiplied by 100%% produces the PD measure. This PD measure is often used as the standard for comparison. Automated measures were based on eroding the breast area first by 25%% unless noted. Here, we assumed the breast was an approximate half semi-circle, and the breast area was eroded radially inward by 25%%. Erosion was used to approximate the breast area that was in contact with the compression paddle surface during the acquisition. Collection 2 was designed with the same intent as Collection 1 to evaluate if the same calibration approach was applicable to a different type of FFDM technology. In both collections, various measures were also made from both for processing and for presentation images without calibration within the eroded area. Measures included the mean, standard deviation, Fourier based on dividing the power spectrum into concentric rings and summing the power within a given ring [27] (texture analysis in the Fourier domain), local correlation, and automated PD (without erosion). The same image processing techniques and risk modeling used for Collection 1 were applied to Collection 2. When making Fourier measures, the largest rectangle that would fit within the breast area was used as the measurement-region. This largest-rectangle algorithm is described in detail in this work [14]. Collection 3 was designed to make breast density measurements from DBT data and the related 2D synthetic images. Here, an automated PD type measurement was applied to the volume slices producing (1) a volumetric PD measure, and (2) an average PD measurement taken over the DBT slices. The same PD approach was applied to the synthetic 2D images. The same modeling design was used as with the other collections, where a given breast density measurement was modeled with conditional logistic regression; analyzing DBT data did not require breast area erosion. \\\nData collection protocol: all datasets were developed with the same IRB-approved protocol. Cases (unilateral breast disease) were either: (1) women attending the breast clinics at Moffitt Cancer Center (MCC) diagnosed with breast cancer (type-1) or (2) attendees of surrounding area clinics sent to MCC for breast cancer treatment or diagnostic purposes and found to have breast cancer (type-2). Cases have pathology verified unilateral (first time) breast cancer. Controls were attendees of MCC with no history of breast cancer. Controls were individually matched to cases on age (\u00b1 2 years), hormone replacement therapy (HRT) usage and current duration, screening history, and mammography unit. The HRT match was based on status of current users or non-users. Nonusers included women that have not taken HRT for at least two years. If a case was a current HRT user, the control was matched on this duration (\u00b1 2 years). Controls were matched by screening history using a three-category classification. Group 1 included women with prior screening history by any means; the duration between the last screening and the study image date must be no more than 30 months. Group 2 included women with a screening history that does not fit within in Group 1 or Group 3. Group 3 included women with no screening history. We used mammograms in craniocaudal (CC) views as study images. The unaffected breast was used as the study image for cases (image acquired before treatment) and the matching lateral breast for controls. Women that had breast implants were excluded from this study. Cases were selected retrospectively (type-1) via electronic medical records search or recruited (type-2). Controls were selected retrospectively via electronic medical records search. Multiple suitable controls were matched to a given case and one control was selected randomly for the study. \\\nThe collections represent mammograms from different technology designs and manufactures. For conventional 2D images acquired with full field digital mammography (FFDM), there are two sets of related images available at the acquisition time termed for processing and for presentation; for processing mammograms can be considered as raw data and are not used clinically. Manufacturer specific algorithms are applied to these images to produce enhanced for presentation images that are used clinically. Both types of images can be used for experimental measurement investigations. FFDM images from Collection 1 have 100\u00b5m pitch and mammograms (FFDM) from collection 2 have 70\u00b5m pitch; these images were acquired with two different spatial sizes depending on breast size (i.e., different size compression paddles). Digital breast tomosynthesis (DBT) data includes volumetric images that are 2D slices of the breast about 1mm thick (or about 10 slices per cm of compressed breast thickness) and 2D synthetic images referred to as C-View images for the technology associated with Collection 3. We will refer to these as 2D synthetic images. Pixel spacing in DBT acquired images is about 100\u00b5m but varies across women from roughly 80\u00b5m to 110\u00b5m in these datasets (but is the same for a given woman\u2019s DBT dataset). DBT units can take both 2D FFDM and DBT acquisitions in tandem without patient repositioning; due the way the images from Collection 2 and 3 were acquired, a larger DBT dataset can be constructed by combining elements from both collections (see citation in Collection 3 results); likewise, a larger 2D FFDM dataset can be constructed from these collections is a similar fashion.  There is an accompanying data dictionary with these collections. The collections do not contain image annotations; only the cancerous breast is known.  Of importance for automated processing, an intricate image file naming convention was developed to inform the user of study and image characteristics such as study number, case-control status, mammographic view, study image eligibility, and image type. The file name string convention can be searched automatically to find a given image type relatively easily and to ensure cases and matching controls can be assembled. \\\nLimitations: sampling of cases and controls was not population-based, but rather a mixture of cases ascertained at an NCI-designated comprehensive cancer center inclusive of referrals from the community. There is no evidence from our studies that the cases are not representative, but findings should be replicated in population-based studies. Data fields allow for selection of the population-based cases (discounting the referrals) but will reduce the case-control numbers. Image data from the General Electric Senographe 2000D FFDM units do not include women with large breasts due to the x-ray detector design limitations. Images may contain artifacts (documented in the data fields) such as nipple markers, mole markers, biopsy clips, and scar markers. These artifacts are documented in the data fields. All images were visually inspected and approved for automated processing. Here, a judgement was made to exclude a sample with too many markers or to include the sample because artifacts were deemed negligent."
+  ]
+}
